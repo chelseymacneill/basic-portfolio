@@ -1,61 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-            <link rel="stylesheet" type="text/css" href="style.css">.
-    </head>
-    <body>
-            <nav class="navbar navbar-default navbar-static-top">
-                    <div class="container">
-                            <a class="active" href="#home">Chelsey MacNeill</a>
-                            <a href="#news">About</a>
-                            <a href="#contact">Portfolio</a>
-                            <a href="#about">Contact</a>
-                    </div>
-                  </nav>
-           
+        <head>
+                <link rel="stylesheet" type="text/css" href="style.css">
+                <title>Chelsey MacNeill | About Me<title></title>
+        </head>
+        <body>
+                <!--Creating a header with figures as boxes. Same and repeated on everypage -->
+                <header>
+                        <figure class="box name">Chelsey MacNeill</figure>
+                        <!-- Creating the header as a nav with lists (another way to do it that I want to try out) -->
+                        <nav class="topnav">
+                                <ul>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                </ul>                              
+                        </nav class="topnav">
+                </header>
+                <!-- creating a place for the About Me content to live-->
+                
+                <body>
+                        <h1>About Me</h1>
+                        
+                        <img src="assets/images/sisters.jpg" alt="Funny faces and pirate hats" id="aboutme_img">  
+                        
+                        <p>   Hello! My name is Chelsey MacNeill. I am just learning how to do web development as this is my first website. 
+                        I've accomplished other things in my life such as being an NCAA athlete, getting my B.S. in Mechanical Engineering, 
+                        obtaining a certificate in Data Science and a welding certification. I enjoy knitting, reading, and debating anything and 
+                        everything with anyone who will partake in a converstaion. I have a mini Australian shepherd named Mala and live in Seattle
+                        , Washington.
+                        </p>
+                <footer></footer>
+        </body>
+                
             
-            <div class="About">
-                 <h1>About Me</h1>
-                
-                    <img src="assets/images/sisters.jpg" alt="Funny faces and pirate hats">  
-                
-                    <p>Hello! My name is Chelsey MacNeill. I am just learning how to do web development as this is my first website. 
-                       I've accomplished other things in my life such as being an NCAA athlete, getting my B.S. in Mechanical Engineering, 
-                       obtaining a certificate in Data Science and a welding certification. I enjoy knitting, reading, and debating anything and 
-                       everything with anyone who will partake in a converstaion. I have a mini Australian shepherd named Mala and live in Seattle
-                       , Washington.
-                    </p>
-                
-            </div>
-            <!-- Creates the portfolio portion but how do I make it not show up and just navigable when the portfolio link is clicked. -->
-            <div class="Portfolio">
-                    <h1>Portfolio</h1>
 
-                    <!-- Need to figure out how to put text over an image. Ah I think it is to use the picture as a background!-->
-                    <img src="assets/images/roller_derby.jpg" alt="Roller Derby">  
-                    <!-- Need to figure out how to put text over an image. Ah I think it is to use the picture as a background!-->
-                    <img src="assets/images/amazonecho.jpg" alt="Roller Derby">  
+        
+            
+            
 
-            <div>
-                    <h2>Contact</h2>
 
-                    <form action="/action_page.php">
-                      Name:<br>
-                      <input type="text" name="Name">
-                      <br>
-                      Email:<br>
-                      <input type="text" name="email">
-                      Message:<br>
-                      <input type="text" name="email">
-                      <br><br>
-                      <input type="submit" value="Submit">
-                    </form> 
-                    
-                    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-            </div>     
-                      
-                   
-               </div>
+
+
+
+            
+            
  
                 
      </body>           
