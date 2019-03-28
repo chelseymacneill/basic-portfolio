@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
         <head>
+                <!-- Adding a reset style sheet as a best practice -->
+                <link rel="sytlesheet" type="text/css" href="reset.css">
                 <link rel="stylesheet" type="text/css" href="style.css">
                 <title>Chelsey MacNeill | About Me<title></title>
         </head>
         <body>
                 <!--Creating a header with figures as boxes. Same and repeated on everypage -->
                 <header>
-                        <figure class="box name">Chelsey MacNeill</figure>
+                        <figure class="name">Chelsey MacNeill</figure>
                         <!-- Creating the header as a nav with lists (another way to do it that I want to try out) -->
-                        <nav class="topnav">
+                        <nav class="top_nav">
                                 <ul>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="About">About</a></li>     
+                                        <li><a href="portfolio.html">Portfolio</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
                                 </ul>                              
-                        </nav class="topnav">
+                        </nav>
                 </header>
+
                 <!-- creating a place for the About Me content to live-->
                 
-                <body>
+                <main class="about">
                         <h1>About Me</h1>
                         
                         <img src="assets/images/sisters.jpg" alt="Funny faces and pirate hats" id="aboutme_img">  
@@ -29,7 +33,9 @@
                         everything with anyone who will partake in a converstaion. I have a mini Australian shepherd named Mala and live in Seattle
                         , Washington.
                         </p>
-                <footer></footer>
+                </main>
+
+                <footer>Footer</footer>
         </body>
                 
             
