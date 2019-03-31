@@ -4,41 +4,47 @@
 header {background-color: #f8f8f0;
   border-color: #cccccc;
   font-family: 'Georgia', 'Times', "Times New Roman", 'serif';
-  height: 100px;
+  height: 75px;
   width: 100%;
-  padding: 5px ;
   margin: 0;
   border-bottom: 2px solid #666666;
   overflow: none;
 }
 
+/* This was messing up my positionong for the name logo in the header*/
 header figure { margin-left: 150px;
 }
 
 /* Styling for Name class located in the header */
 .name { 
-  width: 150px;
-  padding: 15px 0;
+  position:fixed;
+  top:0;
+  width: auto;
+  height: 47px;
+  padding: 15px 10px;
+  margin: 0px 150px;
   background-color: #4aaaa5;
   color:#ffffff;
   text-align: center;
-  
+  font-size: 25px;
 }
 /* */
 .top_nav { position: fixed; /* why doesn't this move the li elements to the right?*/
-  top: 50px;
-  right: 0px;
+  top: 25px; /* This moves the list items up*/
+  right: 150px; 
 }
 
 /* removing the bullets from lists*/
 header ul { list-style-type: none;
   right: 100px;
   width: 100%;
+  padding: 0px;
 }
 
 /* Makes the list for the top nav horizontal*/
 header li { display:inline;
-  padding: 20px;
+  padding: 20px; /* adds spacing in between the list items*/
+  top: 500px; /*doesn't move the list up */
 }
 
 /* Styling for the body element*/
@@ -50,21 +56,28 @@ body { margin: 0px; /* This got ride of the boder around the header and the edge
 
 /* Main content */
 main {  background-color: #ffffff;
-  padding: 5px;
+  padding: 20px;
   margin: 25px auto;
   width: 960px;
   color: #666666;
   border: 3px;
-  border-color: #666666
+  border-color: #666666;
+  overflow: auto;
 }
 /* ------------Styling specifc to About me page------------*/
 
 /* styling for aboutme section photo*/
-#aboutme_img { 
+#aboutme_img { float: left;
   height: 150px;
-  width: 150px;           
+  width: 150px;        
+  margin: 10px;   
 }
 
+.about-para{ padding: 2px;
+  margin: 2px;
+  
+  
+}
 /* ------------Styling specifc to the portfolio page------------*/
 
 /* Styling images on the porfolio page*/
@@ -78,8 +91,21 @@ main {  background-color: #ffffff;
 .mid-box img { height: 100px;
   
 }
+/* Project 1 */
+.container1 {
+  position: relative;
+  font-family: Arial;
+}
 
-
+.text-block {
+  position: absolute;
+  background-color: #4aaaa5;
+  color: white;
+  left: 0px;
+  bottom: 15px;
+  width: 200px;
+  text-align: center;
+}
 
 
 
