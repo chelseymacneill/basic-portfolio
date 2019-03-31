@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-            <!-- Adding a reset style sheet as a best practice -->
-            <link rel="sytlesheet" type="text/css" href="reset.css">
-            <link rel="stylesheet" type="text/css" href="style.css">
-            <title>Chelsey MacNeill | About Me<title></title>
-    </head>
-    <body>
-          <!--Creating a header with figures as boxes. Same and repeated on everypage -->
-           <!--Creating a header with figures as boxes. Same and repeated on everypage -->
+<head>
+        <!-- Adding a reset style sheet as a best practice -->
+        <link rel="sytlesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Chelsey MacNeill | About Me<title></title>
+</head>
+<body>
+        <!--Creating a header with figures as boxes. Same and repeated on everypage -->
         <header>
-                <!-- In the homework I believe it called the name portion logo-->
+                
                 <figure class="name">Chelsey MacNeill</figure>
                 <!-- Creating the header as a nav with lists (another way to do it that I want to try out) -->
-                <nav class="topnav">
+                <nav class="top_nav">
                         <ul>
-                        <li><a href="About">About</a></li>     
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="index.html">About</a></li>  
                         </ul>                              
-                </nav class="topnav">
+                </nav>
         </header>
-
-    <!-- Creates the portfolio portion but how do I make it not show up and just navigable when the portfolio link is clicked. -->
+        
+        <!-- Creates the portfolio portion but how do I make it not show up and just navigable when the portfolio link is clicked. -->
+        
         <main class="portfolio">
                 <h1>Portfolio</h1>
-
-                <!-- Need to figure out how to put text over an image. Ah I think it is to use the picture as a background!-->
-                <img src="assets/images/roller_derby.jpg" alt="Roller Derby" id="project0">  
-                <!-- Need to figure out how to put text over an image. Ah I think it is to use the picture as a background!-->
-                <img src="assets/images/amazonecho.jpg" alt="Roller Derby" id= "projectalexa">  
+                
+                <!-- Kubernetes -->
+                <div class="top-box">
+                        <img> Project 1 <img src="assets/images/amazonecho.jpg" alt="Kubernetes project" id= "projectkubernetes">
+                        <img> Project 2 <img src="assets/images/amazonecho.jpg" alt="Kubernetes project" id= "projectkubernetes">
+                </div>
+                <div class="mid-box">
+                        <img> Project 3 <img src="assets/images/amazonecho.jpg" alt="Kubernetes project" id= "projectkubernetes">
+                        <img> Project 4 <img src="assets/images/amazonecho.jpg" alt="Kubernetes project" id= "projectkubernetes">
+                </div>
+                
         </main>
-    </body>
+        <footer>Footer</footer>   
+</body>
 </html>
