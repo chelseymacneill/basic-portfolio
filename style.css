@@ -1,13 +1,13 @@
 /* Styling for index.html, portfolio.html, contact.html */
 
 /* Styling for header elements */ 
-header {background-color: #f8f8f0;
+header {background-color: #ffffff;
   border-color: #cccccc;
   font-family: 'Georgia', 'Times', "Times New Roman", 'serif';
   height: 75px;
   width: 100%;
   margin: 0;
-  border-bottom: 2px solid #666666;
+  border-bottom: 2px solid #cccccc;
   overflow: none;
 }
 
@@ -59,9 +59,9 @@ main {  background-color: #ffffff;
   padding: 20px;
   margin: 25px auto;
   width: 960px;
-  color: #666666;
+  color: #cccccc;
   border: 3px;
-  border-color: #666666;
+  border-color: #cccccc;
   overflow: auto;
 }
 /* ------------Styling specifc to About me page------------*/
@@ -100,7 +100,7 @@ main {  background-color: #ffffff;
 .text-block {
   position: absolute;
   background-color: #4aaaa5;
-  color: white;
+  color: #ffffff;
   left: 0px;
   bottom: 15px;
   width: 200px;
